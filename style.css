@@ -1,0 +1,80 @@
+/* Overall */
+body {
+  font-family: "Helvetica", sans-serif;
+  margin: 0;
+  color: #4a4a4a;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.3em;
+  margin: 40px auto;
+}
+
+h2 {
+  line-height: 1.5em;
+}
+
+button {
+  width: 360px;
+  background-color: #4a4a4a;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 12px;
+  padding: 12px;
+}
+
+/* Header */
+header {
+  height: 64px;
+  background-color: white;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#colmar {
+  color: #585858;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+#academy {
+  color: #9b9b9b;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+nav {
+  position: fixed;
+  right: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav li {
+  margin: 0 8px;
+}
+
+/* Cover */
+.cover {
+  height: 600px;
+  background-color: #d8d8d8;
+  display: flex;
+  flex-direction: row;
+  padding: 32px 24px;
+}
+
+img {
+  width: 60%;
+  margin-right: 12px;
+}
+
+.description {
+  margin: auto auto auto 12px;
+}
