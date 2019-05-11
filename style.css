@@ -26,12 +26,15 @@ button {
 
 /* Header */
 header {
+  width: 100%;
   height: 64px;
   background-color: white;
   padding: 0 24px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  position: fixed;
+  z-index: 100;
 }
 
 #colmar {
@@ -63,6 +66,8 @@ nav li {
 
 /* Cover */
 .cover {
+  position: relative;
+  top: 64px;
   height: 600px;
   background-color: #d8d8d8;
   display: flex;
@@ -72,9 +77,9 @@ nav li {
 
 img {
   width: 60%;
-  margin-right: 12px;
+  margin-right: 24px;
 }
 
 .description {
-  margin: auto auto auto 12px;
+  margin: auto auto auto 24px;
 }
