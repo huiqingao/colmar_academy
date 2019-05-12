@@ -99,6 +99,7 @@ nav li {
   padding: 0 24px;
   display: flex;
   flex-direction: row;
+  height: 770px;
 }
 
 .featured_article {
@@ -106,7 +107,7 @@ nav li {
   width: 60%;
   border-right: 1px solid #e1e3e3;
   margin-right: 24px;
-  padding-right: 24px;
+
 }
 
 .featured_article img {
@@ -117,4 +118,35 @@ nav li {
 .other_articles {
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: 32px;
+  padding: 32px 0;
+}
+
+.other_articles .description {
+  margin: auto 0;
+}
+
+.article_light {
+  display: flex;
+  flex-direction: row;
+  background-color: green;
+  margin-bottom: 46px;
+}
+
+.article_light img {
+  width: 35%;
+  height: 100%;
+}
+
+.article_dark {
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+}
+
+.article_dark img {
+  width: 35%;
+  height: 100%;
+
 }
