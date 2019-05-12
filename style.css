@@ -6,13 +6,20 @@ body {
 }
 
 h1 {
-  font-size: 48px;
-  line-height: 1.3em;
+  font-size: 3rem;
+  line-height: 3rem;
   margin: 40px auto;
 }
 
 h2 {
-  line-height: 1.5em;
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  line-height: 1.6rem;
 }
 
 button {
@@ -68,18 +75,46 @@ nav li {
 .cover {
   position: relative;
   top: 64px;
-  height: 600px;
   background-color: #d8d8d8;
   display: flex;
   flex-direction: row;
   padding: 32px 24px;
 }
 
-img {
+.cover img {
   width: 60%;
+  height: 100%;
   margin-right: 24px;
 }
 
 .description {
   margin: auto auto auto 24px;
+}
+
+/* Articles */
+.articles {
+  position: relative;
+  top: 64px;
+  background-color: yellow;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.featured_article {
+  position: relative;
+  width: 60%;
+  border-right: 1px solid #e1e3e3;
+  margin-right: 24px;
+  padding-right: 24px;
+}
+
+.featured_article img {
+  width: 100%;
+  margin-top: 32px;
+}
+
+.other_articles {
+  display: flex;
+  flex-direction: column;
 }
