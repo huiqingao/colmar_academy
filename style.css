@@ -1,8 +1,8 @@
 body {
   font-family: "Helvetica";
-  margin: 0 24px;
+  margin: 0 1.5rem;
   border: 1px solid grey;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 h1 {
@@ -88,18 +88,41 @@ button {
   margin-bottom: 2rem;
 }
 
+/*** Three Column ***/
+.three_column {
+  margin: 0 2rem;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
 /*** Card Horizontal ***/
 .card_hr {
   border: 1px solid grey;
   display: flex;
   flex-direction: row;
-  padding: 16px;
+  padding: 1rem;
 }
 
 .card_hr img {
   width: 35%;
   height: 100%;
-  margin-right: 16px;
+  margin-right: 1rem;
+}
+
+/*** Card Verticle ***/
+.card_vrt {
+  border: 1px solid grey;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card_vrt .description {
+  margin: 2rem 2rem 1.33rem 2rem;
 }
 
 /*** Description ***/
@@ -114,10 +137,20 @@ button {
   width: 100%;
 }
 
+.card_vrt img {
+  width: 100%;
+}
+
 /*** Videos ***/
 video {
   width: 100%;
 }
+
+/*** Placeholders ***/
+#ph_2rem {
+  height: 2rem;
+}
+
 
 /*** Cover ***/
 
