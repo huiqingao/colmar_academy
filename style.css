@@ -1,0 +1,122 @@
+body {
+  font-family: "Helvetica";
+  margin: 0 24px;
+  border: 1px solid grey;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: left;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: left;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+p {
+  font-size: 1rem;
+  text-align: left;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+a {
+  font-size: 1rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  text-decoration: none;
+}
+
+button {
+  height: 3rem;
+  width: 20rem;
+  color: white;
+  background-color: grey;
+  font-size: 1.6rem;
+}
+
+/*** Titled Sub-Sections ***/
+.titled_subsec {
+  display: flex;
+  flex-direction: column;
+}
+
+.titled_subsec h1 {
+  text-align: center;
+}
+
+/*** Two Columns ***/
+.two_column {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+}
+
+.col_wide {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  margin: 0 24px 0 0;
+}
+
+.col_wide h1 {
+  text-align: left;
+}
+
+.col_narrow {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  justify-content: center;
+}
+
+.col_narrow h1 {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.col_narrow h2 {
+  margin-bottom: 2rem;
+}
+
+/*** Card Horizontal ***/
+.card_hr {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+}
+
+.card_hr img {
+  width: 35%;
+  height: 100%;
+  margin-right: 16px;
+}
+
+/*** Description ***/
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*** Images ***/
+.col_wide img {
+  width: 100%;
+}
+
+/*** Videos ***/
+video {
+  width: 100%;
+}
+
+/*** Cover ***/
