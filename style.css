@@ -120,3 +120,13 @@ video {
 }
 
 /*** Cover ***/
+
+/*** Articles ***/
+#articles .col_narrow {
+  justify-content: flex-start;
+}
+
+/*** Thesis ***/
+#thesis .col_narrow {
+  justify-content: flex-start;
+}
