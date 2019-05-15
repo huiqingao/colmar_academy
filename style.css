@@ -58,7 +58,7 @@ li {
 body {
   position: relative;
   top: 4rem;
-  font-family: "Helvetica";
+  font-family: "Open Sans";
   margin: 0 1.5rem;
   border: 1px solid grey;
   font-size: 16px;
@@ -95,6 +95,11 @@ a {
   margin-block-start: 0;
   margin-block-end: 0;
   text-decoration: none;
+}
+
+.caption {
+  margin-top: 2rem;
+  font-weight: bold;
 }
 
 button {
