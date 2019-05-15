@@ -109,10 +109,12 @@ button {
 .titled_subsec {
   display: flex;
   flex-direction: column;
+  padding: 2rem 0;
 }
 
 .titled_subsec h1 {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 /*** Two Columns ***/
@@ -225,11 +227,14 @@ video {
   justify-content: flex-start;
 }
 
+#articles h1 {
+  margin-bottom: 1.5rem;
+}
+
 /*** Thesis ***/
 #thesis .col_narrow {
   justify-content: flex-start;
 }
-
 
 /*** Footer ***/
 footer {
@@ -249,4 +254,5 @@ footer {
 
 .links a {
   margin-left: 1rem;
+
 }
