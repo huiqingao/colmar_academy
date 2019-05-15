@@ -1,4 +1,63 @@
+/*** Header ***/
+header {
+  margin: 0 0;
+  padding: 0 1.5rem;
+  border: 1px solid grey;
+  height: 4rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo img {
+  width: auto;
+  height: 2.5rem;
+}
+
+#colmar,
+#academy {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+#colmar {
+  font-weight: bold;
+}
+
+#academy {
+  font-weight: lighter;
+}
+
+nav {
+  position: fixed;
+  right: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+
+/*** Body ***/
 body {
+  position: relative;
+  top: 4rem;
   font-family: "Helvetica";
   margin: 0 1.5rem;
   border: 1px solid grey;
