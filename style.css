@@ -1,12 +1,12 @@
 /* Placeholder */
 .placeholder_320 {
   height: 320px;
-  background-color: grey;
+  background-color: green;
 }
 
 .placeholder_80 {
   height: 80px;
-  background-color: grey;
+  background-color: yellow;
 }
 
 /* Body */
@@ -19,8 +19,8 @@ body {
   font-family: "Open Sans"
 }
 
-main {
-  padding: 0 1.5rem;
+h1 {
+  font-size: 3rem;
 }
 
 /* Header */
@@ -46,15 +46,27 @@ a {
     display: none;
   }
 
+  button {
+    height: 4rem;
+    width: 24rem;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+  }
+
   /* Header */
-  header .desktop {
+  header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: fixed;
+    height: 4rem;
+    width: 100%;
   }
 
   .logo {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     height: 4rem;
     font-size: 1.3rem;
@@ -96,6 +108,7 @@ a {
   /* Two-column sections */
   .two_cols {
     border: 1px solid #AEF04E;
+    background-color: grey;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -117,13 +130,14 @@ a {
 
   .left_col {
     width: 60%;
-    background-color: white;
     margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    flex-shrink: 1;
   }
 
   .right_col {
     width: 40%;
-    background-color: white;
+    flex-shrink: 1;
   }
 
   /* Three-column sections */
@@ -154,6 +168,32 @@ a {
   }
 
 }
+
+/* Cover */
+#cover img {
+  width: 100%;
+  height: auto;
+}
+
+#cover .right_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+#cover .right_col h1 {
+  line-height: 3rem;
+  text-align: left;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+#cover .right_col h2 {
+  line-height: 1.8rem;
+}
+
+
 
 /* Mobile */
 @media only screen and (max-width: 800px) {
