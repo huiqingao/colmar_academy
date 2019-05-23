@@ -7,7 +7,20 @@ body {
   line-height: 0;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
+
+footer {
+  background-color: white;
+  padding: 1rem 1.5rem;
+  position: relative;
+  top: 4rem;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #d8d8d8;
+}
+
 
 /* Both devices */
 /* Layout */
@@ -26,9 +39,6 @@ header {
 main {
   position: relative;
   top: 4rem;
-  padding: 0;
-  margin: 0;
-
 }
 
 /* Patterns */
@@ -90,7 +100,7 @@ p {
 a {
   text-decoration: none;
   color: #303030;
-  line-height: 1rem;
+  line-height: 0.8rem;
 }
 
 ul {
@@ -103,17 +113,6 @@ ul {
 
 /* Sections */
 /* Cover */
-/* .cover {
-  background-color: #d8d8d8;
-  width: 100%;
-  display: flex;
-}
-
-.cover img {
-  width: 100%;
-  height: auto;
-} */
-
 .cover {
   background-color: #d8d8d8;
   width: 100%;
@@ -202,6 +201,18 @@ ul {
 
   li {
     margin-left: 1rem;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer .links a {
+    margin-left: 1rem;
+    font-size: 0.8rem;
   }
 
   /* Layout patterns */
@@ -348,8 +359,6 @@ ul {
     width: 100%;
     height: auto;
   }
-
-
 }
 
 /* Mobile */
@@ -385,6 +394,15 @@ ul {
     margin: 0 1.5rem;
     width: 100%;
     justify-content: space-between;
+  }
+
+  /* Footer */
+  footer {
+    padding-top: 2.5rem;
+  }
+
+  footer .links {
+    display: none;
   }
 
   /* Sections */
