@@ -282,4 +282,16 @@ ul {
     display: none;
   }
 
+  .articles .others {
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  .articles .others .card_pic .pic {
+    width: 100%;
+  }
+
+  .articles .others .card_pic .pic img {
+    width: 100%;
+  }
+
 }
