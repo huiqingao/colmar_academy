@@ -182,31 +182,8 @@ ul {
   }
 
   .cover .description {
-    padding: 0 1rem;
+    padding: 0 1rem 2rem 1rem;
   }
 
-  /* Sections */
-  /* .m_section {
-
-  } */
-
-  /* Cover */
-  /* #m_cover {
-    width: 100%;
-    height: 320px;
-    background-color: #DEF5F4;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #m_cover img {
-    width: 100%;
-    height: auto;
-  }
-
-  #m_cover .col_content {
-    padding: 0 1.5rem;
-    background-color: inherit;
-  } */
 
 }
