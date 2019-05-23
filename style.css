@@ -66,19 +66,19 @@ h1 {
 }
 
 h2 {
-  font-size: 1rem;
-  line-height: 1rem;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
 }
 
 h3 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: grey;
   text-transform: uppercase;
   font-weight: lighter;
 }
 
 p {
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.2rem;
 }
 
@@ -99,7 +99,7 @@ p {
 a {
   text-decoration: none;
   color: #303030;
-  line-height: 0.8rem;
+  line-height: 1rem;
 }
 
 ul {
@@ -198,7 +198,7 @@ ul {
 
   li {
     margin-left: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   /* Footer */
@@ -210,7 +210,7 @@ ul {
 
   footer .links a {
     margin-left: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   /* Layout patterns */
@@ -246,6 +246,11 @@ ul {
 
   /* Sections */
   /* Cover */
+  .cover h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
   .cover .pic img {
     width: 100%;
   }
