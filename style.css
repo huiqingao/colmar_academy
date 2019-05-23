@@ -136,6 +136,16 @@ ul {
   color: #4ECDC4;
 }
 
+/* Courses */
+.courses h1 {
+  text-align: center;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Desktop */
 @media only screen and (min-width: 801px) {
   .mobile {
@@ -234,6 +244,48 @@ ul {
     padding-left: 1rem;
   }
 
+  /* Courses */
+  .courses {
+    background-color: #d8d8d8;
+    padding: 2rem 3.5rem;
+  }
+
+  .courses .course {
+    width: 30%;
+    background-color: white;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0 1rem;
+  }
+
+  .courses .up_row,
+  .courses .down_row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .courses .up_row {
+    margin-bottom: 2rem;
+  }
+
+  .courses .course .pic {
+    width: 100%;
+  }
+
+  .courses .course .pic img {
+    width: 100%;
+  }
+
+  .course .description {
+    padding: 0 1rem;
+  }
+
+  .course .description h3 {
+    color: grey;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+
 }
 
 /* Mobile */
@@ -300,6 +352,28 @@ ul {
 
   .articles .others .card_pic .pic img {
     width: 100%;
+  }
+
+  /* Courses */
+  .courses .up_row,
+  .courses .down_row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .courses .course {
+    background-color: #d8d8d8;
+    padding: 1rem 1rem 1.5rem 1rem;
+    margin: 0 1rem 0.5rem 1rem;
+  }
+
+  .course .pic {
+    display: none;
+  }
+
+  .course .description h3,
+  .course .description p {
+    display: none;
   }
 
 }
