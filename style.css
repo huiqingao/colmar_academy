@@ -52,18 +52,25 @@ button {
 
 /* Text styles */
 h1 {
-  font-size: 2.6rem;
-  line-height: 2.6rem;
+  font-size: 2rem;
+  line-height: 2rem;
 }
 
 h2 {
-  font-size: 1.4rem;
-  line-height: 1.6rem;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+h3 {
+  font-size: 0.8rem;
+  color: grey;
+  text-transform: uppercase;
+  font-weight: lighter;
 }
 
 p {
-  font-size: 1rem;
-  line-height: 1.3rem;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
 }
 
 .bold {
@@ -207,17 +214,20 @@ ul {
 
   .right {
     width: 40%;
-    padding-left: 1rem;
     flex-grow: 1;
     flex-shrink: 1;
   }
 
   .card_pic .pic {
     width: 35%;
+    padding: 1rem;
   }
 
   .card_pic .description {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .card_pic .description h2 {
@@ -254,7 +264,6 @@ ul {
   }
 
   .articles .others .card_pic {
-    padding: 1rem 0;
     display: flex;
     flex-direction: row;
   }
@@ -266,10 +275,6 @@ ul {
   .articles .others .card_pic .pic img {
     width: 100%;
     height: auto;
-  }
-
-  .articles .others .card_pic .description {
-    padding-left: 1rem;
   }
 
   /* Courses */
@@ -308,11 +313,6 @@ ul {
     padding: 0 1rem;
   }
 
-  .course .description h3 {
-    color: grey;
-    text-transform: uppercase;
-    font-weight: normal;
-  }
 
   /* Thesis */
   .thesis_content {
@@ -334,10 +334,6 @@ ul {
     width: 100%;
   }
 
-  .thesis_content .others {
-    background-color: white;
-  }
-
   .thesis_content .others .card_pic {
     padding: 0;
     display: flex;
@@ -353,9 +349,6 @@ ul {
     height: auto;
   }
 
-  .thesis_content .others .card_pic .description {
-    padding-left: 1rem;
-  }
 
 }
 
