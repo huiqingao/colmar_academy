@@ -20,6 +20,7 @@ header {
   left: 0;
   display: flex;
   flex-direction: row;
+  z-index: 1000;
 }
 
 main {
@@ -76,8 +77,6 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: fixed;
-    z-index: 1000;
   }
 
   #logo {
@@ -88,6 +87,7 @@ ul {
     flex-direction: row;
     align-items: center;
     text-transform: uppercase;
+    font-size: 1.2rem;
   }
 
   #logo .bold {
@@ -171,6 +171,20 @@ ul {
     display: none;
   }
 
+  /* Patterns */
+  button {
+    width: 100%;
+  }
+
+  /* Text styles */
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    line-height: 1.6rem;
+  }
+
   /* Header */
   nav {
     background-color: #FFEFA2;
@@ -197,7 +211,8 @@ ul {
   }
 
   #m_cover .col_content {
-    margin: 0 1rem;
+    padding: 0 1.5rem;
+    background-color: inherit;
   }
 
 }
