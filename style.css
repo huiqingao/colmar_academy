@@ -1,6 +1,6 @@
 /* Overall Style */
 body {
-  background-color: #E1E8E1;
+  background-color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   color: #303030;
   font-size: 16px;
@@ -12,7 +12,6 @@ body {
 }
 
 footer {
-  background-color: white;
   padding: 1rem 1.5rem;
   position: relative;
   top: 4rem;
@@ -149,7 +148,6 @@ ul {
 
 /* Thesis */
 .thesis {
-  background-color: #FFF1F1;
   width: 100%;
   padding-top: 2rem;
   display: flex;
@@ -179,7 +177,6 @@ ul {
   }
 
   #logo {
-    background-color: #FFEFA2;
     height: 4rem;
     margin: 0 1.5rem;
     display: flex;
@@ -190,7 +187,6 @@ ul {
   }
 
   nav {
-    background-color: #FFEFA2;
     height: 4rem;
     display: flex;
     flex-direction: row;
@@ -254,7 +250,6 @@ ul {
   }
 
   .cover .description {
-    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -334,7 +329,6 @@ ul {
   }
 
   .thesis_content .featured {
-    background-color: #FFF3BC;
     padding-top: 0;
   }
 
@@ -388,7 +382,6 @@ ul {
 
   /* Header */
   nav {
-    background-color: #FFEFA2;
     display: flex;
     flex-direction: row;
     align-items: center;
