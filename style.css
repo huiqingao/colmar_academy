@@ -48,7 +48,7 @@ button {
   border: none;
   font-size: 1.2rem;
   flex-shrink: 1;
-  padding: 0 5rem;
+  border-radius: 2px;
 }
 
 .white {
@@ -133,7 +133,7 @@ ul {
 }
 
 .articles .others .card_pic .description a {
-  color: #4ECDC4;
+  color: #28BFB2;
 }
 
 /* Courses */
@@ -160,13 +160,14 @@ ul {
 
 /* Desktop */
 @media only screen and (min-width: 801px) {
-  body {
-    width: 60rem;
-    margin: 0 auto;
-  }
 
   .mobile {
     display: none;
+  }
+
+  /* Patterns */
+  button {
+    width: 20rem;
   }
 
   /* Header */
