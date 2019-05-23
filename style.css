@@ -113,7 +113,7 @@ ul {
   }
 
   /* Two-column section */
-  .two_col {
+  /* .two_col {
     background-color: #DEF5F4;
     margin: 0;
     display: flex;
@@ -152,16 +152,20 @@ ul {
     margin-left: 1rem;
     display: flex;
     flex-direction: column;
-  }
+  } */
 
   /* Cover */
+  /* #cover {
+    background-color: #d8d8d8;
+  }
+
   .col_right h1 {
     text-align: left;
   }
 
   #cover .col_right {
     justify-content: center;
-  }
+  } */
 
 }
 
@@ -196,8 +200,13 @@ ul {
     justify-content: space-between;
   }
 
+  /* Sections */
+  /* .m_section {
+
+  } */
+
   /* Cover */
-  #m_cover {
+  /* #m_cover {
     width: 100%;
     height: 320px;
     background-color: #DEF5F4;
@@ -213,6 +222,6 @@ ul {
   #m_cover .col_content {
     padding: 0 1.5rem;
     background-color: inherit;
-  }
+  } */
 
 }
