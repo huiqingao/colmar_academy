@@ -34,11 +34,12 @@ main {
 /* Patterns */
 button {
   height: 4rem;
-  width: 24rem;
   background-color: #303030;
   color: white;
   border: none;
   font-size: 1.2rem;
+  flex-shrink: 1;
+  padding: 0 5rem;
 }
 
 .white {
@@ -95,7 +96,7 @@ ul {
 
 /* Sections */
 /* Cover */
-.cover {
+/* .cover {
   background-color: #d8d8d8;
   width: 100%;
   display: flex;
@@ -104,12 +105,12 @@ ul {
 .cover img {
   width: 100%;
   height: auto;
-}
+} */
 
-.cover .pic,
-.cover .description {
-  flex-shrink: 1;
-  flex-grow: 1;
+.cover {
+  background-color: #d8d8d8;
+  width: 100%;
+  display: flex;
 }
 
 /* Articles */
@@ -119,12 +120,6 @@ ul {
 
 .card_pic {
   width: 100%;
-}
-
-.articles .featured,
-.articles .others {
-  flex-shrink: 1;
-  flex-grow: 1;
 }
 
 .articles .others {
@@ -146,8 +141,26 @@ ul {
   flex-direction: column;
 }
 
+/* Thesis */
+.thesis {
+  background-color: #FFF1F1;
+  width: 100%;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.thesis h1 {
+  text-align: center;
+}
+
 /* Desktop */
 @media only screen and (min-width: 801px) {
+  body {
+    width: 60rem;
+    margin: 0 auto;
+  }
+
   .mobile {
     display: none;
   }
@@ -184,33 +197,48 @@ ul {
     margin-left: 1rem;
   }
 
-  /* Sections */
-  /* Cover */
-  .cover {
-    flex-direction: row;
-  }
-
-  .cover .pic {
+  /* Layout patterns */
+  .left {
     width: 60%;
     padding: 2rem 1.5rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .right {
+    width: 40%;
+    padding-left: 1rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  /* Sections */
+  /* Cover */
+  .cover .pic img {
+    width: 100%;
   }
 
   .cover .description {
-    width: 40%;
-    padding-left: 1rem;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  /* Articles */
-  .articles {
+
+  /* .cover {
     flex-direction: row;
   }
 
-  .articles .featured {
-    width: 60%;
-    padding: 2rem 1.5rem;
+  .cover .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } */
+
+  /* Articles */
+  .articles {
+    flex-direction: row;
   }
 
   .articles .featured .pic img {
@@ -219,8 +247,6 @@ ul {
   }
 
   .articles .others {
-    width: 40%;
-    padding-left: 1rem;
     display: flex;
     flex-direction: column;
   }
@@ -286,6 +312,26 @@ ul {
     font-weight: normal;
   }
 
+  /* Thesis */
+  .thesis_content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .thesis_content .featured .pic {
+    width: 100%;
+  }
+
+  .thesis_content .featured .pic video {
+    width: 100%;
+  }
+
+  .thesis_content .others {
+    height: 20rem;
+    background-color: white;
+  }
+
 }
 
 /* Mobile */
@@ -329,9 +375,25 @@ ul {
     flex-direction: column;
   }
 
+  .cover .pic {
+    width: 100%;
+  }
+
+  .cover .pic img {
+    width: 100%;
+  }
+
+  .cover .description {
+    padding: 0 1rem;
+  }
+
+  /* .cover {
+    flex-direction: column;
+  }
+
   .cover .description {
     padding: 0 1rem 2rem 1rem;
-  }
+  } */
 
   /* Articles */
   .articles .featured {
@@ -340,6 +402,7 @@ ul {
 
   .articles .others {
     padding: 1rem 1rem 2rem 1rem;
+    width: 100%;
   }
 
   .articles .others .white {
@@ -355,6 +418,10 @@ ul {
   }
 
   /* Courses */
+  .courses {
+    margin-bottom: 1.5rem;
+  }
+
   .courses .up_row,
   .courses .down_row {
     display: flex;
@@ -373,6 +440,23 @@ ul {
 
   .course .description h3,
   .course .description p {
+    display: none;
+  }
+
+  /* Thesis */
+  .thesis .others {
+    display: none;
+  }
+
+  .thesis .featured {
+    width: 100%;
+  }
+
+  .thesis .featured video {
+    width: 100%;
+  }
+
+  .thesis .featured .description {
     display: none;
   }
 
