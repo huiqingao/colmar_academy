@@ -403,6 +403,7 @@ ul {
   /* Cover */
   .cover {
     flex-direction: column;
+    padding-bottom: 2rem;
   }
 
   .cover .pic {
@@ -416,14 +417,6 @@ ul {
   .cover .description {
     padding: 0 1rem;
   }
-
-  /* .cover {
-    flex-direction: column;
-  }
-
-  .cover .description {
-    padding: 0 1rem 2rem 1rem;
-  } */
 
   /* Articles */
   .articles .featured {
