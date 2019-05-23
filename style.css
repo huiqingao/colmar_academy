@@ -118,7 +118,6 @@ ul {
 }
 
 .card_pic {
-  height: 20rem;
   width: 100%;
 }
 
@@ -126,6 +125,15 @@ ul {
 .articles .others {
   flex-shrink: 1;
   flex-grow: 1;
+}
+
+.articles .others {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.articles .others .card_pic .description a {
+  color: #4ECDC4;
 }
 
 /* Desktop */
@@ -207,6 +215,12 @@ ul {
     flex-direction: column;
   }
 
+  .articles .others .card_pic {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+  }
+
   .articles .others .card_pic .pic {
     width: 35%;
   }
@@ -214,6 +228,10 @@ ul {
   .articles .others .card_pic .pic img {
     width: 100%;
     height: auto;
+  }
+
+  .articles .others .card_pic .description {
+    padding-left: 1rem;
   }
 
 }
